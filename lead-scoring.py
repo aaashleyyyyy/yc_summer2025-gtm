@@ -27,9 +27,9 @@ df['lead_score'] = df.apply(calculate_lead_score, axis=1)
 
 # 2. Assign funnel stage
 def assign_stage(score):
-    if score >= 70:
+    if score >= 30:
         return "Demo-Ready"
-    elif score >= 50:
+    elif score >= 25:
         return "SQL (Sales Qualified Lead)"
     else:
         return "MQL (Marketing Qualified Lead)"
