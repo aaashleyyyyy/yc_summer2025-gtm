@@ -9,7 +9,7 @@
 
 Process: I scraped the YC Summer 2025 Batch page to get all the details of each startup and the industries they're in.
 
-outputs:
+#### outputs: <br>
 startups.py --> yc_summer2025_startups.csv  <br>
 startup-details.py --> yc_summer2025_startups_details.csv <br>
 data-cleaning.py --> yc_combined_startups_data.csv <br>
